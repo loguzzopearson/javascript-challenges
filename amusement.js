@@ -21,7 +21,7 @@ function boxed()
 }
 
 
-// Function to make the ball bounce within square and change colors
+// WIP Function to make the ball bounce within square and change colors
 function drawing() 
 {
   // Draw ten frames per second 
@@ -41,7 +41,7 @@ function drawing()
     clear();
     // the box
     boxed();
-    // purple bouncing ball
+    // bouncing ball
     ball(ballx, bally);
     ballx +=dirx;
     bally +=diry; 
